@@ -1,0 +1,79 @@
+
+html, body, h1, h2, h3, h4, p, div, ul, ol, li {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+body {
+  background-image: url(http://calvarychapelinland.org/wp-content/uploads/2014/01/subtle-vertical-stripes.png);
+}
+.container {
+  width: 750px;
+  margin: 15px auto;
+  background-color: rgba(129, 155, 165, .8);
+  border: 2px solid #666666;
+  border-radius: 3px;
+  box-shadow: 3px 3px 1px #999999;
+}
+.header-text {
+  width: 380px;
+  float: left;
+  margin: 16px 0 0 20px;
+  border: 1px solid #666666;
+  background-color: rgba(129, 155, 165, .9);
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px #999999;
+}
+header h1 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 50px;
+  margin: 10px;
+}
+header ul {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  list-style-type: none;
+  margin: 0 10px 10px 20px;
+}
+figure {
+  background-color: darkred;
+  float: right;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px #999999;
+}
+main {
+  padding: 10px;
+  margin: 0 25px 0 25px;
+}
+main h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+  text-decoration: underline;
+}
+main h2 {
+  text-align: center;
+  font-size: 20px;
+}
+main h3 {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+}
+main h4 {
+  text-align: center;
+  font-size: 16px;
+}
+main ul {
+  font-size: 14px;
+  margin: 10px 0 25px 40px;
+}
+hr {
+  margin: 30px auto;
+}
